@@ -11,9 +11,7 @@ cd packages
         mv my-addon addon
         cd addon
             # peer deps
-            pnpm add @ember-data/store --save-peer
-            pnpm add @ember-data/adapter --save-peer
-            pnpm add @ember-data/model --save-peer
+            pnpm add ember-data --save-peer
             # dev deps
             pnpm add @types/ember-data -D
             pnpm add @types/ember-data__store -D

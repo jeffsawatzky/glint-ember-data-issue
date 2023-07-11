@@ -7,7 +7,7 @@ module('Unit | Adapter | common', function (hooks) {
 
   // Replace this with your real tests.
   test('it exists', function (assert) {
-    let adapter = this.owner.lookup('adapter:common');
+    const adapter = this.owner.lookup('adapter:common');
     assert.ok(adapter);
   });
 });
